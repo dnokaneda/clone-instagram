@@ -1,0 +1,131 @@
+.card-container { 
+   width: auto;
+   height: auto;
+   margin-top: 30px;  
+   border: 1px solid #DBDBDB;
+}
+
+/****** HEADER ******/
+/********************/
+
+.card-header { 
+   height: 60px;
+
+   display: flex;
+   align-items: center;
+   padding-left: 12px;
+   padding-right: 12px;
+   justify-content: space-between;
+}
+
+.card-header img {
+   border-radius: 50%;
+   width: 40px;
+}
+
+.card-header-menu { 
+   
+}
+
+/****** FOTO ******/
+/******************/
+
+.card-photo { 
+   width: 500px; 
+   height: 500px; 
+}
+
+.card-photo img { 
+   width: inherit;   
+}
+
+/****** ICONES ******/
+/********************/
+
+.card-icones-container, .card-comentarios-container { 
+   padding: 12px 12px 0px 12px;
+}
+
+.card-icones { 
+   margin-right: 12px;
+}
+
+.card-icones-right {
+   float: right;
+}
+
+.card-icones-container p { 
+   padding: 0;
+   margin: 0;
+   padding-top: 6px;
+   font-size: 11px;
+   font-weight: 600;
+}
+
+/****** COMENTARIOS ******/
+/*************************/
+
+.card-comentarios-container { 
+   border-bottom: 1px solid #DBDBDB;
+   padding: 0 12px 0 12px;
+}
+
+.card-comentarios-container p {    
+   font-size: 13px;  
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   padding-top: 6px; 
+     
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.card-comentarios-container p span { 
+   font-weight: bold;
+   padding-right: 6px;
+}
+
+.card-comentarios-icone { 
+   margin-top: 1px;
+   margin-right: 6px;
+}
+
+.card-comentarios-total {
+   color: #888;
+   font-size: 13px;
+}
+
+.card-comentarios-tempo { 
+   color: #888;
+   font-weight: 100;
+   font-size: 10px;
+   padding-top: 12px;
+   padding-bottom: 12px;
+}
+
+/****** NOVO COMENTARIO ******/
+/*****************************/
+
+.card-novo-comentario-container { 
+   display: flex;
+   align-items: center;
+}
+
+.card-novo-comentario-container input { 
+   border: none;
+   line-height: 50px;
+   padding-left: 12px;   
+   width: 100%;
+}
+
+.button-novo-comentario {
+   line-height: 50px;
+   width: 100px;
+   text-align: center;
+   font-size: 12px;
+   color: #1496fa;
+   font-weight: bold;
+   opacity: 0.7;
+}

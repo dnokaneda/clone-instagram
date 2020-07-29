@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input:focus {
+  outline: none;
+}
+
+.app-content {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;  
+  overflow-y: overlay;
+  overflow-x: hidden;
+  background-color: #FAFAFA;
+  padding-top: 55px;
+  padding-bottom: 55px;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.border { border: 2px solid #0F0; }
+
+.app-content::-webkit-scrollbar {  
+  width: 6px !important;
+}
+
+.app-content::-webkit-scrollbar-track {
+  background: #FAFAFA;
+  border: 1px solid #FAFAFA;
+}
+
+.app-content::-webkit-scrollbar-thumb {
+  background-color: #DBDBDB;
+  border: 1px solid #DBDBDB;
+}
